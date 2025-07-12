@@ -1,20 +1,20 @@
-# AI Translator (English to Urdu)
+# AI Translator (English ↔ Urdu)
 
-This is a command-line AI translator built with Python using OpenAI Agents and Gemini API. It translates English text into Urdu with high accuracy.
+A simple command‑line translator built in Python using OpenAI Agents and the Gemini API. It automatically detects whether the input is English or Urdu and returns the translation in the opposite language—no extra text, just the translated sentence.
 
-## ⚙️ Features
-- Translate English to Urdu via terminal
-- Uses Gemini API through OpenAI Agents
-- Clean and simple CLI interface
-- Modular and easy to expand
+## ⚙️ Features
+- **Bidirectional translation**: English → Urdu & Urdu → English  
+- Powered by **Gemini API** via OpenAI Agents  
+- Clean, straightforward **CLI** workflow  
+- Modular codebase—easy to tweak or extend  
 
-## 🚀 Setup Instructions
-
+## 🚀 Quick Setup
 ```bash
 git clone https://github.com/yourusername/uv.git
 cd uv
 python -m venv venv
-venv\Scripts\activate   # On Windows
+venv\Scripts\activate        # Windows
+# source venv/bin/activate   # macOS/Linux
 pip install -r requirements.txt
 
 Create a .env file in the root directory:
