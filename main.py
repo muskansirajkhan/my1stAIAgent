@@ -42,7 +42,6 @@ agent = Agent(
     model=model
 )
 
-# 👇 Yahan se input text change karo
 # input_text = "میرا نام مسکان ہے، میں جی آئی اے آئی سی کی طالبہ ہوں۔"
 input_text = "My name is Muskan and I study at GIAIC."
 
